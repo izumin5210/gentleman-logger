@@ -1,4 +1,4 @@
-package gentlemanlogger
+package logger
 
 import (
 	"io"
