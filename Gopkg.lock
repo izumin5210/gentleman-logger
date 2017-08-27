@@ -2,6 +2,12 @@
 
 
 [[projects]]
+  branch = "master"
+  name = "github.com/izumin5210/httplogger"
+  packages = ["."]
+  revision = "9b5f66bfad659c206ada385ff1dfc790b9408b2f"
+
+[[projects]]
   name = "gopkg.in/h2non/gentleman.v2"
   packages = ["context","plugin","utils"]
   revision = "306092e612855f1ce485d8bd35361a0d10fac40f"
@@ -10,6 +16,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "a77ab0329d4cd016c55bb88f0bfab1b3bd98f972c5888304c5ad8397554a30f1"
+  inputs-digest = "1ec1417f178ced4883ac95de1ccd0772af5eb4a89a326b0f68298aa8350c8d5e"
   solver-name = "gps-cdcl"
   solver-version = 1
