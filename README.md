@@ -1,4 +1,5 @@
 # gentleman-logger
+[![Build Status](https://travis-ci.org/izumin5210/gentleman-logger.svg?branch=master)](https://travis-ci.org/izumin5210/gentleman-logger)
 
 ## Example
 
