@@ -10,15 +10,8 @@ import (
 
 // New creates logger plugin instance
 func New(out io.Writer) plugin.Plugin {
-	p := plugin.New()
-	logger := httplogger.NewLogger(out)
-	p.SetHandler("request", func(c *context.Context, h context.Handler) {
-		c.Request = logger.LogRequest(c.Request)
+	return plugin.NewRequestPlugin(func(c *context.Context, h context.Handler) {
+		c.Client.Transport = httplogger.NewRoundTripper(out, c.Client.Transport)
 		h.Next(c)
 	})
-	p.SetHandler("response", func(c *context.Context, h context.Handler) {
-		logger.LogResponse(c.Response)
-		h.Next(c)
-	})
-	return p
 }
