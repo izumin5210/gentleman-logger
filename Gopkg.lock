@@ -5,7 +5,7 @@
   branch = "master"
   name = "github.com/izumin5210/httplogger"
   packages = ["."]
-  revision = "9b5f66bfad659c206ada385ff1dfc790b9408b2f"
+  revision = "ff6e89dd3cb135a4bb0062c59f34789805b9730f"
 
 [[projects]]
   branch = "master"
