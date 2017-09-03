@@ -1,5 +1,8 @@
 # gentleman-logger
 [![Build Status](https://travis-ci.org/izumin5210/gentleman-logger.svg?branch=master)](https://travis-ci.org/izumin5210/gentleman-logger)
+[![license](https://img.shields.io/github/license/izumin5210/gentleman-logger.svg)](./LICENSE)
+[![Go Report Card](https://goreportcard.com/badge/github.com/izumin5210/gentleman-logger)](https://goreportcard.com/report/github.com/izumin5210/gentleman-logger)
+[![GoDoc](https://godoc.org/github.com/izumin5210/gentleman-logger?status.svg)](https://godoc.org/github.com/izumin5210/gentleman-logger)
 
 ## Example
 
