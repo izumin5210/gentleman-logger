@@ -8,14 +8,26 @@
   revision = "9b5f66bfad659c206ada385ff1dfc790b9408b2f"
 
 [[projects]]
+  branch = "master"
+  name = "golang.org/x/net"
+  packages = ["idna","publicsuffix"]
+  revision = "66aacef3dd8a676686c7ae3716979581e8b03c47"
+
+[[projects]]
+  branch = "master"
+  name = "golang.org/x/text"
+  packages = ["internal/gen","internal/triegen","internal/ucd","secure/bidirule","transform","unicode/bidi","unicode/cldr","unicode/norm","unicode/rangetable"]
+  revision = "bd91bbf73e9a4a801adbfb97133c992678533126"
+
+[[projects]]
   name = "gopkg.in/h2non/gentleman.v2"
-  packages = ["context","plugin","utils"]
+  packages = [".","context","middleware","mux","plugin","plugins/body","plugins/bodytype","plugins/cookies","plugins/headers","plugins/multipart","plugins/query","plugins/url","utils"]
   revision = "306092e612855f1ce485d8bd35361a0d10fac40f"
   version = "v2.0.0"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "1ec1417f178ced4883ac95de1ccd0772af5eb4a89a326b0f68298aa8350c8d5e"
+  inputs-digest = "845cd1338ef9ac220a560abf0f89c783f4becd24c91b9f0c0d57075904e4041b"
   solver-name = "gps-cdcl"
   solver-version = 1
