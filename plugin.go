@@ -2,7 +2,6 @@ package logger
 
 import (
 	"io"
-	"log"
 	"net/http"
 
 	"github.com/izumin5210/httplogger"
@@ -18,9 +17,9 @@ func New(out io.Writer) plugin.Plugin {
 }
 
 // FromLogger creates logger plugin instance with a specified logger implementation
-func FromLogger(logger *log.Logger) plugin.Plugin {
+func FromLogger(writer httplogger.LogWriter) plugin.Plugin {
 	return new(func(parent http.RoundTripper) http.RoundTripper {
-		return httplogger.FromLogger(logger, parent)
+		return httplogger.FromLogger(writer, parent)
 	})
 }
 
