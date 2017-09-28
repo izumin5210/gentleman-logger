@@ -2,10 +2,10 @@
 
 
 [[projects]]
-  branch = "master"
   name = "github.com/izumin5210/httplogger"
   packages = ["."]
-  revision = "45606cd4331aee0549f40c14516cc6ef04a8cfb3"
+  revision = "d21b09a37919ded5bd190c32c5e0775d579a4d94"
+  version = "v1.0.0"
 
 [[projects]]
   branch = "master"
@@ -28,6 +28,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "845cd1338ef9ac220a560abf0f89c783f4becd24c91b9f0c0d57075904e4041b"
+  inputs-digest = "9223db78b11ab9471f1c73b9eb9ceafc84cbb1e643aec5d78fc134fb18464f5d"
   solver-name = "gps-cdcl"
   solver-version = 1
