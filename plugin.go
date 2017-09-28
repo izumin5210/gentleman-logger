@@ -17,9 +17,9 @@ func New(out io.Writer) plugin.Plugin {
 }
 
 // FromLogger creates logger plugin instance with a specified logger implementation
-func FromLogger(writer httplogger.LogWriter) plugin.Plugin {
+func FromLogger(writer httplogger.SimpleLogWriter) plugin.Plugin {
 	return new(func(parent http.RoundTripper) http.RoundTripper {
-		return httplogger.FromLogger(writer, parent)
+		return httplogger.FromSimpleLogger(writer, parent)
 	})
 }
 

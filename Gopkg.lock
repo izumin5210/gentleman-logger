@@ -5,7 +5,7 @@
   branch = "master"
   name = "github.com/izumin5210/httplogger"
   packages = ["."]
-  revision = "8e81d14f58727fd104c5a3a2d81b2ac0c027cdd6"
+  revision = "45606cd4331aee0549f40c14516cc6ef04a8cfb3"
 
 [[projects]]
   branch = "master"
@@ -22,8 +22,8 @@
 [[projects]]
   name = "gopkg.in/h2non/gentleman.v2"
   packages = [".","context","middleware","mux","plugin","plugins/body","plugins/bodytype","plugins/cookies","plugins/headers","plugins/multipart","plugins/query","plugins/url","utils"]
-  revision = "306092e612855f1ce485d8bd35361a0d10fac40f"
-  version = "v2.0.0"
+  revision = "f37ccc165695fb91e0e782d862b84397118b7151"
+  version = "v2.0.2"
 
 [solve-meta]
   analyzer-name = "dep"
