@@ -22,8 +22,8 @@
 [[projects]]
   name = "gopkg.in/h2non/gentleman.v2"
   packages = [".","context","middleware","mux","plugin","plugins/body","plugins/bodytype","plugins/cookies","plugins/headers","plugins/multipart","plugins/query","plugins/url","utils"]
-  revision = "306092e612855f1ce485d8bd35361a0d10fac40f"
-  version = "v2.0.0"
+  revision = "f37ccc165695fb91e0e782d862b84397118b7151"
+  version = "v2.0.2"
 
 [solve-meta]
   analyzer-name = "dep"
